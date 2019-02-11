@@ -41,13 +41,11 @@ as follows:
 
 * ``BooleanTableView tableView = new BooleanTableView(new boolean[][] { { true, false, true}, {false, true, false}});``
 
- Creates a grid of 3x2 and initializes it
+  Creates a grid of 3x2 and initializes it
 
 * ``tableView.setValues(new boolean[][] { { true, false, true}, {false, true, false}});``
 
-  Set new values to the table view. Dimensions must match with those at creation time
-
- Creates a grid of 3x2 and initializes it
+  Sets new values to the table view. Dimensions must match with those at creation time
 
 * ``tableView.setValue(4, 3, true);``
 
